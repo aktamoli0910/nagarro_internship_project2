@@ -307,6 +307,7 @@ app
           name: req.body.Username,
           email_id: req.body.email_id,
           password: pass,
+          isVerified: true,
           mail_token,
         });
         new_user.save();
