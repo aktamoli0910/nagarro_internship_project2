@@ -313,6 +313,7 @@ app
         new_user.save();
       }
     });
+    res.redirect('/login')
   });
 
 app.get("/user", (req, res) => {
